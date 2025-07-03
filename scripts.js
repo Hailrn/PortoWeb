@@ -29,8 +29,8 @@ const observer = new IntersectionObserver((entries) => {
     });
   });
 
-const sectionsToAnimate = document.querySelectorAll('section');
+const sectionsToAnimate = document.querySelectorAll('.fade-in-section');
 sectionsToAnimate.forEach(section => {
-  section.classList.add('fade-in-section');
+//   section.classList.add('fade-in-section');
   observer.observe(section);
 });
