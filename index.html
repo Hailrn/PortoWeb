@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Keren punyaku!</title>
+  <title>Hailrn's Profile</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans">
@@ -19,14 +19,14 @@
     </nav>
   </header>
 
-  <section id="tentang" class="container mx-auto p-8 mt-8 bg-white rounded-lg shadow-md">
+  <section id="tentang" class="container mx-auto p-8 mt-8 mb-8 bg-white rounded-lg shadow-md">
     <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
     
     <div class="flex flex-col md:flex-row items-center">
         <div class="w-full md:w-1/3 p-4 flex justify-center">
-        <div class="w-48 h-48 bg-gray-300 rounded-full flex items-center justify-center text-gray-500">
-            Foto Keren
-        </div>
+          <div class="w-48 h-48 bg-gray-300 rounded-full flex items-center justify-center text-gray-500">
+              <img src="profilePhoto.jpg" alt="Profile Photo" class="w-full h-48 object-cover rounded-full">
+          </div>
         </div>
         
         <div class="w-full md:w-2/3 p-4">
@@ -48,9 +48,78 @@
     
     </section>
 
-  <section id="proyek" class="container mx-auto p-8 mt-8">
-    <h2 class="text-3xl font-bold mb-4">Projects</h2>
-    </section>
+  <section id="proyek" class="bg-gray-50 py-12">
+  <div class="container mx-auto px-8">
+    <h2 class="text-3xl font-bold mb-8 text-center">My Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <img src="SiBadir.jpg" alt="Screenshot SiBadir" class="w-full h-48 object-cover">
+        
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">SiBadir</h3>
+          <p class="text-gray-700 mb-4">
+            Sistem Informasi Keperluan Bahan Bakso Njedir Jember, membantu memudahkan pendataan stok bahan dan riwayat penggunaannya.
+          </p>
+          
+          <div class="mb-4">
+            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">C#</span>
+          </div>
+
+          <div class="flex space-x-4">
+            <a href="https://github.com/Hailrn/project007_sln/tree/fahmi-wildan" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition-colors">Kode Sumber</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <img src="Festida_Neceeta.jpg" alt="Screenshot Neceeta" class="w-full h-48 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Neceeta</h3>
+          <p class="text-gray-700 mb-4">
+            Website yang saya dan tim saya kembangkan untuk mengikuti Web Competition, Festida 2024.
+          </p>
+
+          <div class="mb-4">
+            <span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">PHP</span>
+            <span class="bg-red-100 text-red-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Laravel</span>
+            <span class="bg-sky-100 text-sky-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">MySQL</span>
+          </div>
+
+          <div class="flex space-x-4">
+            <a href="https://neceeta.vercel.app/" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">Lihat Demo</a>
+            <a href="https://github.com/Hailrn/Neceeta-web" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition-colors">Kode Sumber</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <img src="path/ke/screenshot2.jpg" alt="Screenshot Proyek" class="w-full h-48 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Judul Proyek</h3>
+          <p class="text-gray-700 mb-4">
+            Deskripsi singkat
+          </p>
+
+          <div class="mb-4">
+            <span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">PHP</span>
+            <span class="bg-red-100 text-red-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Laravel</span>
+            <span class="bg-sky-100 text-sky-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">MySQL</span>
+          </div>
+
+          <div class="flex space-x-4">
+            <a href="URL_LIVE_DEMO_PROYEK_2" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">Lihat Demo</a>
+            <a href="URL_GITHUB_PROYEK_2" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition-colors">Kode Sumber</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+  </div>
+</section>
 
   <section id="kontak" class="container mx-auto p-8 mt-8">
     <h2 class="text-3xl font-bold mb-4">Contact Me!</h2>
