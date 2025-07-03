@@ -12,3 +12,9 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+
+#mobile-menu.menu-terbuka {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}

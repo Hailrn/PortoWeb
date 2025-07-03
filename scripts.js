@@ -34,3 +34,15 @@ sectionsToAnimate.forEach(section => {
 //   section.classList.add('fade-in-section');
   observer.observe(section);
 });
+
+const hamburgerButton = document.getElementById('hamburger-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  hamburgerButton.addEventListener('click', (e) => {
+    e.stopPropagation(); // Mencegah klik menyebar ke elemen lain
+    mobileMenu.classList.toggle('menu-terbuka');
+    menuIcon.classList.toggle('hidden');
+    closeIcon.classList.toggle('hidden');
+  });
